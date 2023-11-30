@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+body {
+    /* porpiedades del body */
+    margin: 0px;
+}
+
+.titulo {
+   background-color: blueviolet;
+   color: white;
+   margin: 0px;
+   padding: 30px 15px;
+}
+.contenedor{
+    background-color: blue;
+    width: 120px ;
+    height: 130px ;
+    padding: 12px ;
+    border: solid 3px aquamarine;
+    display: none;
+   
+}
+
+.enlaces {
+    background-color: red;
+border: 4px;
+   /*no afecta el modelo de caja*/ 
+    width: 500px;
+    height: 400px ;
+}
+
+/*---- contact----*/
+
+.header {
+   background-color: rgba(189, 177, 177, 0.979);
+   border-bottom: solid 3px black;
+   height: 150px ;
+}
+.subtitulo {
+ text-align: center;
+ margin: 0px;
+ padding: 50px;
+ font-size: 30px;
+ color: aquamarine;
+ }
+
+ .footer {
+    background-color: rgba(189, 177, 177, 0.979);
+    border-top: solid 3px black;
+    height: 150px ;
+ }
+
+ .mail {
+    min-height: 620px;
+ }
+.productos {
+    height: 300px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+ }
+
+ .producto-item {
+    height: 200px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    width: 200px;
+ }

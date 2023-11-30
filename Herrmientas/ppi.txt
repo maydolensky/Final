@@ -1,0 +1,3 @@
+Como se compone un elemento? Una etiqueta de apertura (opcionalmente uno o mas atributos), el contenido,una etiqueta de cierre (algunos elementos no la llevan)
+Puede un enlistado tener una etiqueta h2 de lista? Por lo general no,se espera que tenga una etiqueta de li 
+Cuantos tipos de lostas hay y cuales son? Anidadas, ordenadas y desordenadas 

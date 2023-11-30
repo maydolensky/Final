@@ -1,0 +1,47 @@
+body  {
+margin: 0px;
+}
+.cajaPadre  {
+background-color: rgba(162,133,207,0.691); 
+height: 650px;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+box-sizing: border-box;
+margin: 0px;
+}
+
+.cajaHija  {
+	background-color: rgb(122, 230, 194,0.787);
+    width: 150px;
+    margin: 15px;
+}
+.shrek {
+ order: 4;
+ align-self: center;
+    
+
+}	
+.burro {
+    order: 2;
+    align-self: center;
+}	
+   
+.fiona{
+  order: 0;
+  align-self: stretch;
+
+}	
+.gato-con-botas{
+    order: 1;
+  align-self: flex-end;
+}	
+.pinocho{
+    order: 3;
+    align-self: flex-start;
+  
+
+}	
+

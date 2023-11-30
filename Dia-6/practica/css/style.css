@@ -1,0 +1,146 @@
+/* BODY*/
+body {
+    box-sizing: border-box;
+    background-image: url(../images/bg-body.png);
+    background-repeat: repeat;
+    margin: 50px;
+    padding: 0px 100px;
+}
+/* HEADER */
+.login{
+    font-size: small;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box; 
+}
+.item-header{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 15px 15px;
+    background-color: #444; 
+    width: 180px;
+    text-align: center;
+    margin: 20px;
+}
+.log{
+    text-decoration: none;
+   color: #444;
+   padding-right: 20px;
+}
+.n{
+   text-decoration: none;
+   color: white;
+}
+.l{
+    border-radius: 80px;
+}
+ul {
+    padding: 0px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.navegador{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+
+/* MAIN */
+
+.banner {
+  width: 100%;
+}
+
+.padrecard {
+margin-top: 20px;
+margin-bottom: 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+
+
+.card {
+    width: 30%;
+    margin-top: 20px;
+}
+
+.copas {
+order: 0; 
+
+}
+.mesa {
+order: 2; 
+}
+    
+.especias {
+order: 1; 
+}
+.copas2 {
+order: 3; 
+    
+    }
+.mesa2 {
+    order: 5; 
+    }
+        
+.especias2 {
+    order: 4; 
+    }
+article img{
+    width: 100%;
+}
+.amain {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px;   
+}
+h3 {
+text-align: left;
+ }
+
+
+
+.cajaPadre { 
+    list-style-type: none;
+    flex-direction: row;
+display: flex;
+background-color: rgb(220, 20, 20);
+height: 60px;
+border-top-right-radius: 35px;
+border-top-left-radius: 35px;
+align-items: center;
+justify-content: center;
+
+}
+.item-footer { 
+text-decoration: none;
+color: white;
+
+}
+
+ @media(max-width:420px){
+.banner {
+    display:none ;
+ }
+.navegador {
+    display:flex;
+    flex-direction: none;
+
+}
+.nav-header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+}
+

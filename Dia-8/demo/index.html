@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <main>  
+    <form action="./busqueda.html" method="get">
+         <div class="contenedor-input">
+            <label for="minombre">Nombre:</label>
+            <input type="text" name="nombre" id="minombre"value=""required>
+
+        </div>
+        <div class="contenedor-input">
+            <label for="miEmail"> Email:</label>
+            <input type="email" name="mail" id="miEmail"required>
+        </div>
+        <div class="contenedor-input">
+            <label for="miPass">Clave:</label>
+            <input type="password" name="pass" id="miPass">
+        </div>
+        <div class="contenedor-input">
+            <label for="">Asistio a clases?</label>
+            <span>Si</span> <input type="radio" name="asistencia"value="Si" checked>
+            <span>No</span> <input type="radio" name="asistencia" value="No">
+        </div>
+        <div class="contenedor-input">
+            <label>Hobbies</label>
+            <span>futbol</span>  <input type="checkbox" name="hobbies" value="futbol">
+
+            <span>beisbol</span>  <input type="checkbox" name="hobbies" value="beisbol">
+
+            <span>golf</span>  <input type="checkbox" name="hobbies" value="golf">
+    </div>
+
+    <div class="contenedor-input">
+        <textarea name="campoLargo" cols="30" rows="10"></textarea>
+    </div>
+    <div class="contenedor-input">
+        <select name="pais" id="paises">
+            <option value="br">Brasil</option>
+
+            <option value="arg">Argentina</option>
+
+            <option value="vn">Venezuela</option>
+        </select>
+    </div>
+        <div class="contenedor-input">
+            <button type="submit">Enviar</button>
+
+            <button type="reset">Resetear</button>
+
+            <button type="button">Atras</button>
+        </div>
+    </form>
+</main> 
+</body>
+</html>

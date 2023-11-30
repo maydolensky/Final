@@ -1,0 +1,77 @@
+
+.imagen.about {
+    background-image: url("../img/about.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+h2.titulo  {
+    color: rgb(83, 82, 82);
+    font-size: medium;
+
+}
+h3.parrafo{
+    color: rgb(74,176,142);
+    background-color: rgba(240, 255, 255, 0.836);
+}
+h4.pie {
+    color: rgb(74, 176, 142);
+    background-color: rgba(240, 255, 255, 0.836);
+     
+    }
+ contact
+ li.iconos {
+    color: black
+     
+    }
+body.contact h3.titulo{
+    color: rgb(74, 176, 142);
+     
+    }
+ 
+ h2.tituloprincipal {
+    color: black;
+    font-family: "raleway", sans-serif;
+         
+ }
+ h2.titulo.mapa {
+    color: black;
+    font-family: "open sans",sans-serif;
+    
+    }
+ ul.contactos {
+ list-style: none;
+    color: black;
+    font-family: "open sans", sans-serif;
+    text-decoration: none;
+}
+h3.pie-mapa {
+    color: black;
+    font-family:"open sans", sans-serif ;
+    font-size: medium;
+
+}
+h4.mail  {
+    color: grey;
+    font-family: "open sans", sans-serif;
+    
+}
+h2.emiliahome {
+    color: grey;
+    font-family: "raleway", sans-serif;
+         
+ }
+
+
+ol.canciones {
+    list-style-type: decimal-leading-zero;
+   font-family: "open sans", sans-serif;
+}
+
+ul.creditos {
+    list-style-type: none;
+   color: grey;
+   font-family: "open sans", sans-serif;
+}
+
+

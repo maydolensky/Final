@@ -1,0 +1,120 @@
+
+.imagen.about {
+    background-image: url("../img/about.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+h2{
+    color: rgb(1, 1, 1);
+    font-size: medium;
+    font-family: "raleway", sans-serif;
+}
+
+h3.parrafo{
+    color: rgb(74,176,142);
+    background-color: rgba(240, 255, 255, 0.236);
+    font-size: 30px;
+}
+
+h4.pie {
+    color: rgb(74, 176, 142);
+    background-color: rgba(240, 255, 255, 0.285); 
+    font-size: 20px;
+    font-family: "open sans",sans-serif;
+    }
+
+ li.iconos {
+    color: black
+     
+    }
+body.contact h3.titulo{
+    color: rgb(74, 176, 142);
+     
+    }
+ 
+.tituloprincipal {
+    color: black;
+    font-family: "raleway", sans-serif;
+         
+ }
+ h2.titulo.mapa {
+    color: black;
+    font-family: "open sans",sans-serif;
+    
+    }
+.about{ background-image: url(../img/about.jpg);
+    background-position: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bodyhome    {
+    background-image: url(../img/home.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 350px;
+    }
+
+.titulo {font-size: 50px;
+    color: rgb(85, 85, 85);
+}
+.contactos {
+ list-style: none;
+    color: black;
+    font-family: "open sans", sans-serif;
+    text-decoration: none;
+}
+h3 {
+    color: black;
+    font-family:"open sans", sans-serif ;
+    font-size: medium;
+}
+
+h4.mail  {
+    color: grey;
+    font-family: "open sans", sans-serif;
+    
+}
+
+
+
+.emiliahome {
+    color: rgb(61, 58, 58);
+    font-family: "raleway", sans-serif;    
+    font-size: 70px;    
+ }
+
+
+b { color:black;
+}
+
+
+ol.canciones {
+    list-style-type: decimal-leading-zero;
+   font-family: "open sans", sans-serif;
+}
+
+ul.creditos {
+    list-style-type: none;
+   color: grey;
+   font-family: "open sans", sans-serif;
+}
+
+
+.titulocontacto { color: rgb(52, 141, 137);
+}
+
+a  {text-decoration: none;   
+    color: rgb(62, 61, 61);
+}
+
+ul {    font-family: "open sans", sans-serif;
+    list-style: none;
+    color: black;
+}
+
+
+.titulohome {   font-family: "open sans", sans-serif;
+    background-color: rgba(245, 246, 248, 0.345);
+}

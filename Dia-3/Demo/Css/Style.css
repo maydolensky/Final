@@ -1,0 +1,32 @@
+/*Regla de etiqueta*/
+h1 {
+    color: blueviolet;
+text-align: center;}
+
+
+ /*regla de clases*/
+    .parrafo {
+        font-size:30px ;
+    background-color: rgba(255, 255, 255, 0.711);}
+        
+/*Regla de ID*/
+#lista-desordenada {
+    list-style-type: square;}
+    /*regla desc*/
+    #lista-desordenada .primero {
+        color: brown;}
+
+ /*regla desc*/
+    #lista-desordenada .segundo {
+        color: blue;}
+
+
+    /* backgrounds---------------------*/
+
+    #body-index {
+        background-image: url("../img/Messi.webp");
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        
